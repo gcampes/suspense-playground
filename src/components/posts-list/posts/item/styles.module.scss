@@ -1,0 +1,24 @@
+.post {
+  margin: var(--spacing-regular) 0;
+  margin-bottom: var(--spacing-huge);
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.title {
+  cursor: pointer;
+  display: block;
+  color: var(--black);
+  text-decoration: none;
+  padding: var(--spacing-tiny);
+  text-transform: uppercase;
+  font-size: var(--font-size-small);
+  background-color: var(--light);
+  margin-bottom: var(--spacing-small);
+}
+
+.body {
+  color: var(--not-black);
+}
